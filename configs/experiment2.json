@@ -1,0 +1,20 @@
+{
+    "epochs": 5,
+    "pretrained": true,
+    "crop_size": null,
+    "experiment_name": "experiment2_full_finetuning",
+    "scheduler": null,
+    "num_workers": 0,
+    "architecture": "resnet18",
+    "freeze_backbone": false,
+    "random_seed": 42,
+    "preprocessing": "fixed_resize",
+    "image_size": 224,
+    "num_classes": 10,
+    "learning_rate": 0.0001,
+    "batch_size": 8,
+    "loss": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "random_horizontal_flip": true,
+    "historical_batch_size": 32
+}
