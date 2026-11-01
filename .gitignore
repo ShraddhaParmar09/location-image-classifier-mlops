@@ -16,13 +16,14 @@ env/
 
 # ML model files
 *.pt
-*.pth
 *.ckpt
 *.onnx
 
 # Dataset files
 data/raw/
 data/processed/
+data/metadata/train.csv
+data/metadata/.cache/
 
 # Logs
 logs/
@@ -34,5 +35,3 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
-# Exclude all local dataset files
-data/
